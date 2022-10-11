@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADDY GYM</title>
+</head>
+<link rel="stylesheet" href="../GYM/style.css">
+<style>
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url("back.jpg");
+    color: white;
+    
+}
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+    left: 60px;
+    top: 20px;
+    line-height: 20px;
+}
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 944px;
+    margin: 20px auto;
+
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+}
+.navbar{
+display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration:underline ;
+    color: grey;
+}
+.left img{
+    width: 100px;
+}
+.left{
+    text-align: center;
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 16px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.container{
+border: 2px solid rgb(194, 190, 190);
+margin: 104px 130px;
+padding: 2px 2px;
+border-radius: 10px;
+width: 50%;
+text-align: center;
+
+
+}
+
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.container button{
+  display: block;
+    width: 514px;
+    margin: auto;
+}
+</style>
+
+<body>
+<header class="header">
+    <div class="left">
+     <img src="2626372.jpg" alt="">
+    <div>
+        Addy Fitness
+    </div>
+    </div>
+
+    <div class="mid">
+    
+        <ul class="navbar" class="active">
+            <li><a href="#" >Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <!-- i am mid -->
+    </div>
+    <div class="right">
+    <button class="btn">
+         Call Us
+    </button>
+    <button class="btn">
+        Email Us
+    </button>
+    </div>
+
+<div class="container">
+    <h1>Join the Best Gym of Delhi Now</h1>
+    <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your name">
+            <input type="text" name="" placeholder="Enter your age">
+            <input type="text" name="" placeholder="Enter your gender">
+
+        </div>
+        <button class="btn">
+            Submit
+        </button>
+    </form>
+</div>
+</header>    
+</body>
+</html>
